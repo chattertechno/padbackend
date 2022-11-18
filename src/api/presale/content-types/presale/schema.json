@@ -4,7 +4,8 @@
   "info": {
     "singularName": "presale",
     "pluralName": "presales",
-    "displayName": "presale"
+    "displayName": "presale",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -31,6 +32,24 @@
     },
     "type": {
       "type": "string"
+    },
+    "hardcap": {
+      "type": "integer"
+    },
+    "softcap": {
+      "type": "integer"
+    },
+    "liquidityPercent": {
+      "type": "integer"
+    },
+    "startTime": {
+      "type": "integer"
+    },
+    "endTime": {
+      "type": "integer"
+    },
+    "badges": {
+      "type": "json"
     }
   }
 }

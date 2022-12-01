@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "airdrops",
+  "info": {
+    "singularName": "airdrop",
+    "pluralName": "airdrops",
+    "displayName": "airdrop",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "socials": {
+      "type": "json"
+    },
+    "allocation": {
+      "type": "json"
+    },
+    "tokenAddress": {
+      "type": "string"
+    }
+  }
+}

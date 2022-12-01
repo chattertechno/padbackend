@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "privatesales",
+  "info": {
+    "singularName": "privatesale",
+    "pluralName": "privatesales",
+    "displayName": "privatesale",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "hardcap": {
+      "type": "integer"
+    },
+    "softcap": {
+      "type": "integer"
+    },
+    "whitelist": {
+      "type": "boolean"
+    },
+    "startTime": {
+      "type": "integer"
+    },
+    "endTime": {
+      "type": "integer"
+    },
+    "socials": {
+      "type": "json"
+    },
+    "firstFundrelease": {
+      "type": "integer"
+    },
+    "eachcycle": {
+      "type": "integer"
+    },
+    "vestingPeriod": {
+      "type": "integer"
+    },
+    "tokenAddress": {
+      "type": "string"
+    }
+  }
+}

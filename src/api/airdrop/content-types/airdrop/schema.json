@@ -26,6 +26,18 @@
     },
     "tokenAddress": {
       "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "logoUrl": {
+      "type": "string"
+    },
+    "startTime": {
+      "type": "integer"
+    },
+    "endTime": {
+      "type": "integer"
     }
   }
 }
